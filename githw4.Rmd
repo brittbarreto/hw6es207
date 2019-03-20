@@ -25,7 +25,8 @@ complete<- length(loc$Address) - sum(str_detect(loc$Address, "\\d") & str_detect
 complete
 
 ```
-
+Comments for Q14
+Specify a column in the code from which you want to calculate the summary statistics for, this is to prevent you from hard-coding.This would enable you use this code on any data set for similar purpose.
 
 ```{r}
 ## 14
@@ -39,6 +40,10 @@ annual_data<- function(x) {
   
 annual_data(daily.site)
 ```
+
+Comments for Q15
+Specify a column in the code from which you want to calculate the mean, this is to prevent you from hard-coding.This would enable you use this code on any data set for similar purpose.
+
 
 ```{r}
 ##15
